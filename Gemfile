@@ -5,6 +5,7 @@ ruby '2.6.6'
 
 gem "slim-rails"
 gem 'rubocop-rails', require: false
+gem 'rails-i18n'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use sqlite3 as the database for Active Record
