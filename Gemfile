@@ -6,6 +6,7 @@ ruby '2.6.6'
 gem "slim-rails"
 gem 'rubocop-rails', require: false
 gem 'rails-i18n'
+gem 'devise'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
