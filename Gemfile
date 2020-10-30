@@ -7,8 +7,8 @@ gem "slim-rails"
 gem 'rubocop-rails', require: false
 gem 'rails-i18n'
 gem 'devise'
-gem 'faker'
 gem 'simple_form'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
@@ -55,6 +55,8 @@ group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
+  gem 'shoulda-matchers', '~> 4.0'
+  gem 'shoulda'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
   gem 'faker'
