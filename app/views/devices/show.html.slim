@@ -1,0 +1,12 @@
+p#notice = notice
+
+p
+  strong Name:
+  = @device.name
+p
+  strong Category:
+  = @device.category
+
+=> link_to 'Edit', edit_device_path(@device)
+'|
+=< link_to 'Back', devices_path
