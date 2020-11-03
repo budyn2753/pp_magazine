@@ -1,5 +1,5 @@
 class Category < ApplicationRecord
-  validates :name, presence: true
   has_many :devices
 
+  validates :name, presence: true
 end
